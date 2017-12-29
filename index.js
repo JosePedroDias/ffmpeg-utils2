@@ -49,7 +49,7 @@ function extractFrames(o, cb) {
       fps: 1,
       scale: 1,
       outPath: os.tmpdir(),
-      outImageMask: "GUID_%04d.jpg"
+      outImageMask: "GUID_%05d.jpg"
     },
     o
   );
@@ -76,7 +76,8 @@ function extractFrames(o, cb) {
           frame_rate: o.fps, // Number of the frames to capture in one second
           size: fDims.join("x"), // Dimension each frame
           padding_color: "black", // Padding color
-          file_name: o.outImageMask // File name
+          file_name: o.outImageMask, // File name
+          number: o.numFrames
         },
         (err, files) => {
           if (err) {
