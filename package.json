@@ -1,0 +1,22 @@
+{
+  "name": "ffmpeg-utils2",
+  "version": "1.0.0",
+  "description":
+    "utility functions to perform operations on videos using ffmpeg. same API as avconv-utils",
+  "main": "index.js",
+  "scripts": {},
+  "author": {
+    "name": "José Pedro Dias",
+    "email": "jose.pedro.dias@gmail.com",
+    "url": "http://josepedrodias.com/"
+  },
+  "keywords": ["extract images", "create mosaics", "video utilities", "ffmpeg"],
+  "license": "ISC",
+  "dependencies": {
+    "async": ">= 0.2.9",
+    "extend": ">= 1.2.1",
+    "ffmpeg": "0.0.4",
+    "gm": ">= 1.13.3",
+    "uuid": "^3.1.0"
+  }
+}
