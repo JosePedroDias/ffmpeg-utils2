@@ -1,5 +1,5 @@
 const fu2 = require('../index');
-const tmpFolder = require('./aux').tmpFolder;
+const tmpFolder = require('./auxiliary').tmpFolder;
 const fs = require('fs');
 
 jest.setTimeout(10000);
