@@ -21,10 +21,10 @@ const getMetadata = (media) => {
         durationSecs: md.duration.seconds,
         fps: md.video.fps,
         vCodec: md.video.codec,
-        vBitrate: md.video.bitrate,
+        vBitrate: md.video.bitrate && parseFloat(md.video.bitrate),
         dimensions: [md.video.resolution.w, md.video.resolution.h],
         aCodec: md.audio && md.audio.codec,
-        aBitrate: md.audio && md.audio.bitrate
+        aBitrate: md.audio && parseFloat(md.audio.bitrate)
       });
     })
     .catch(reject);
