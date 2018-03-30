@@ -14,7 +14,9 @@ This modules uses ffmpeg and graphicsmagick to manipulate video and images.
 
 ### Windows
 
-    // TODO
+in a powershell run as administrator do:
+
+    choco install ffmpeg graphicsmagick
 
 ### Linux
 
