@@ -1,6 +1,6 @@
 {
   "name": "ffmpeg-utils2",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "utility functions to perform operations on videos using ffmpeg",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,11 @@
     "name": "José Pedro Dias",
     "email": "jose.pedro.dias@gmail.com",
     "url": "http://josepedrodias.com/"
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/JosePedroDias/ffmpeg-utils2"
   },
   "keywords": [
     "extract images",
